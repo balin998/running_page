@@ -26,8 +26,8 @@ env:
   TITLE: Liang's Running
   MIN_GRID_DISTANCE: 10 # change min distance here
   TITLE_GRID: Over 10km Runs # also here
-  GITHUB_NAME: rdshoep
-  GITHUB_EMAIL: rdshoep@gmail.com
+  GITHUB_NAME: balin998
+  GITHUB_EMAIL: balin998@gmail.com
 
 jobs:
   sync:
