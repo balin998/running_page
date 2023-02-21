@@ -63,8 +63,9 @@ def get_all_activity_summaries(session, headers):
             "outdoor": summary["location"] != ',,'
           })
         summary_list_length = len(summary_list)
-        if summary_list_length < 25 or summary_list_length == 0:
-          break
+        # 接口全量返回，非分页模式
+        # if summary_list_length < 25 or summary_list_length == 0:
+        break
         from_id = summary_list[-1]["activity_id"]
         time.sleep(1)  # spider rule
   return result
